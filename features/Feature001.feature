@@ -1,4 +1,4 @@
-@Feature @LTM_4f5afa92-e00c-47b3-bc9f-edcca81aabb1
+@Feature 
 Feature: Feature001
 
   @ABC123_000007
