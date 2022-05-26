@@ -1,11 +1,5 @@
-@Feature @ABC123_000017
+@Feature @ABC123_000020
 Feature: Feature001
-
-  @ABC123_000007
-  Scenario: qwe
-    Given qwe
-    When qwe
-    Then wer
 
   @ABC123_000008
   Scenario: The client search by "af" 00343641
