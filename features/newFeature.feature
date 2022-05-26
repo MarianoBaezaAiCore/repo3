@@ -3,6 +3,6 @@ Feature: newFeature
 
   @ABC123_000013
   Scenario: 
-    Given 
+    Given algo
     When 
     Then 
