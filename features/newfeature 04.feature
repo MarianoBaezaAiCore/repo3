@@ -6,3 +6,9 @@ Feature: newfeature 04
     Given hjk
     When ghj
     Then ghjk
+
+  @ABC123_000044
+  Scenario: hjklyui
+    Given hjk
+    When ghj
+    Then ghjk
