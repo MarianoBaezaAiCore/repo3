@@ -7,7 +7,6 @@ Feature: newfeature 02
     When qwe
     Then wer
 
-  @ABC123_000039
   Scenario: qwerty
     Given qwe
     When qwe
