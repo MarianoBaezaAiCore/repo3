@@ -1,12 +1,14 @@
+@ABC123_000053
+Feature: prueba01
 
-Feature: newfeature 010
-
-  Scenario: uno
+  @ABC123_000052
+  Scenario: dos
     Given hjk
     When ghj
     Then ghjk
 
-  Scenario: dos
+  @ABC123_000051
+  Scenario: uno
     Given hjk
     When ghj
     Then ghjk
