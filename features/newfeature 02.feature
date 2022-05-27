@@ -6,8 +6,9 @@ Feature: newfeature 02
     Given qwe
     When qwe
     Then wer
-    
-    Scenario: qwerty
+
+  @ABC123_000039
+  Scenario: qwerty
     Given qwe
     When qwe
     Then wer
