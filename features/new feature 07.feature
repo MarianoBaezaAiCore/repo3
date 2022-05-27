@@ -2,7 +2,7 @@
 Feature: new feature 07
 
   @ABC123_000049
-  Scenario: fgj
+  Scenario: fg
     Given werty
     When wertjk
     Then sdfghj
