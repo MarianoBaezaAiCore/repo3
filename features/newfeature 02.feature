@@ -6,3 +6,8 @@ Feature: newfeature 02
     Given qwe
     When qwe
     Then wer
+    
+    Scenario: qwerty
+    Given qwe
+    When qwe
+    Then wer
