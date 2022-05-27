@@ -12,3 +12,8 @@ Feature: newfeature 04
     Given hjk
     When ghj
     Then ghjk
+    
+  Scenario: ertyuioerty
+    Given hjk
+    When ghj
+    Then ghjk
