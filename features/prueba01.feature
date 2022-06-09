@@ -5,7 +5,7 @@ Feature: prueba01
   Scenario: dos cambio valido
     Given cambi
     When valido
-    Then ghj
+    Then gh
 
   @ABC123_000051
   Scenario: uno
