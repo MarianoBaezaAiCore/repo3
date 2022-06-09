@@ -11,4 +11,4 @@ Feature: prueba01
   Scenario: uno
     Given hjs
     When gh
-    Then gh
+    Then g
