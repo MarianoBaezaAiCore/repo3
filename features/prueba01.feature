@@ -3,7 +3,7 @@ Feature: prueba01
 
   @ABC123_000052
   Scenario: dos cambio valido
-    Given cambio
+    Given cambi
     When valido
     Then ghj
 
