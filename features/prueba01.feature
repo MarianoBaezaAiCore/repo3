@@ -10,5 +10,5 @@ Feature: prueba01
   @ABC123_000051
   Scenario: uno
     Given hjs
-    When gh
+    When g
     Then g
