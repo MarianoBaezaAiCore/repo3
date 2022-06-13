@@ -1,13 +1,14 @@
-@ABC123_000219
 Feature: featurewithbackground
 
-  @ABC123_000217
+  Background:
+    Given El cliente realiza el login con el usuario automation.ltm y contraseña 1234
+    And se dirije a la pantalla Runs
+
   Scenario: hjklyui
     Given hjk
     When ghj
     Then ghj
 
-  @ABC123_000218
   Scenario: qwert
     Given qwerty
     When qwert
