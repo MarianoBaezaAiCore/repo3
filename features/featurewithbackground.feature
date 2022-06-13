@@ -1,5 +1,10 @@
 Feature: featurewithback
 
+  Background:
+    Given El cliente realiza el login con el usuario automation.ltm y contraseña 1234
+    And se dirije a la pantalla Runs
+
+
   Scenario: hjklyui
     Given hjk
     When ghj
