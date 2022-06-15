@@ -1,5 +1,7 @@
-Feature: Feature prueba 001
+@ABC123_000306
+Feature: somefeature
 
+  @ABC123_000305
   Scenario: Scenario prueba 001
     Given hjk
     When ghj
