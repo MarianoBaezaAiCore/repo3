@@ -1,4 +1,4 @@
-@LippiaTestManagerFront @TestRuns
+
 Feature: Vista previa archivos
 
   @Smoke @Regresion
