@@ -1,7 +1,7 @@
 
 Feature: Vista previa archivos
 
-  @Smoke @Regresion
+
   Scenario Outline: Adjuntar archivos a un Test Run Execution.
     Given El cliente realiza el login con el usuario automation.ltm y contraseña 1234
     And se dirije a la pantalla Runs
@@ -16,7 +16,7 @@ Feature: Vista previa archivos
       | Run editado de Automation | IN PROGRESS | Ver          | Adicionar_test.pdf | 1        |
 
 
-  @Smoke
+
   Scenario Outline: Visualizar archivos en el reporte de un test run desde Proyectos.
     Given El cliente realiza el login con el usuario automation.ltm y contraseña 1234
     And se dirije a la pantalla Proyectos
