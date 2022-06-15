@@ -11,7 +11,7 @@ Feature: asdfghjk
     And edita el campo Nombre <runName> TestRun
     And edita el campo Descripcion <runDescription> TestRun
     And click sobre el boton Guardar TestRun
-    Then aparece una alerta con el mensaje: run de test edi
+    Then aparece una alerta con el mensaje: run de test ed
 
     Examples: 
       | run               | runName                   | runDescription                  |
