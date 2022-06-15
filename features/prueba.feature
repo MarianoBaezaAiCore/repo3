@@ -1,10 +1,11 @@
+@MAB001_000010
 Feature: prueba
 
   Background:
     Given El cliente realiza el login con el usuario automation.ltm y contraseña 1234
     And se dirije a la pantalla Runs
 
-  @Smoke @Regresion 
+  @Smoke @Regresion @MAB001_000009
   Scenario Outline: Edicion de TestRun exitosa.
     When hace clic sobre el icono de lapiz del test run <run>
     And edita el campo Nombre <runName> TestRun
