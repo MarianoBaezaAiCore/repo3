@@ -1,11 +1,7 @@
-@LippiaTestManagerFront @TestRuns
-Feature: Vista previa archivos
+@TestRuns @LippiaTestManagerFront @ABC123_000346
+Feature: newfeaturefile
 
-#Como usuario de LTM
-#Necesito poder previsualizar los adjuntos del test como una calesita
-#Para poder ver las imagenes attacheadas a un test de un test run
-
-  @Smoke @Regresion
+  @Smoke @Regresion @ABC123_000345
   Scenario Outline: Adjuntar archivos a un Test Run Execution.
     Given El cliente realiza el login con el usuario automation.ltm y contraseña 1234
     And se dirije a la pantalla Runs
@@ -14,7 +10,7 @@ Feature: Vista previa archivos
     And el usuario adjunta el archivo <archivo> al <posicion> test
     Then verifico que se adjunto el archivo <archivo> al <posicion> test
 
-    Examples:
-      | runName                   | estado      | opcionTestRun| archivo            | posicion |
-      | Run editado de Automation | IN PROGRESS | Ver          | test_run.PNG       | 1        |
-      | Run editado de Automation | IN PROGRESS | Ver          | Adicionar_test.pdf | 1        |
+    Examples: 
+      | runName                   | estado      | opcionTestRun | archivo            | posicion |
+      | Run editado de Automation | IN PROGRESS | Ver           | test_run.PNG       | 1        |
+      | Run editado de Automation | IN PROGRESS | Ver           | Adicionar_test.pdf | 1        |
