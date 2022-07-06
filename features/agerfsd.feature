@@ -1,4 +1,3 @@
-@PRY002_000012
 Feature: agerfsd
 
   @Smoke @Regresion @PRY002_000011
