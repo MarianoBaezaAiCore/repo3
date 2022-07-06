@@ -1,4 +1,3 @@
-@PRY002_000004
 Feature: newfeaturefile
 
   @Smoke @Regresion @PRY002_000003
