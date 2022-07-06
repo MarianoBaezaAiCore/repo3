@@ -1,4 +1,3 @@
-@TestRuns @LippiaTestManagerFront @PRY002_000010
 Feature: agerfsd
 
   @Smoke @Regresion @PRY002_000009
