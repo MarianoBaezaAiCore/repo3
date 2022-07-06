@@ -1,7 +1,7 @@
-@TestRuns @LippiaTestManagerFront
+@LippiaTestManagerFront @TestRuns @PRY001_000002
 Feature: newfeaturefile
 
-  @Smoke @Regresion
+  @Smoke @Regresion @PRY001_000001
   Scenario Outline: Adjuntar archivos a un Test Run Execution.
     Given El cliente realiza el login con el usuario automation.ltm y contraseña 1234
     And se dirije a la pantalla Runs
