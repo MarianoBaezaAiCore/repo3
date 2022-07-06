@@ -1,4 +1,3 @@
-@LippiaTestManagerFront @TestRuns @PRY001_000002
 Feature: newfeaturefile
 
   @Smoke @Regresion @PRY001_000001
