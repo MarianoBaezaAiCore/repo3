@@ -1,7 +1,7 @@
-@TestRuns @LippiaTestManagerFront @PRY001_000003
+@TestRuns @LippiaTestManagerFront @PRY001_000006
 Feature: asdfghjkl
 
-  @Smoke @Regresion @PRY001_000001
+  @Smoke @Regresion @PRY001_000004
   Scenario Outline: Adjuntar archivos a un Test Run Execution.
     Given El cliente realiza el login con el usuario automation.ltm y contraseña 1234
     And se dirije a la pantalla Runs
@@ -15,7 +15,7 @@ Feature: asdfghjkl
       | Run editado de Automation | IN PROGRESS | Ver           | test_run.PNG       | 1        |
       | Run editado de Automation | IN PROGRESS | Ver           | Adicionar_test.pdf | 1        |
 
-  @Smoke @PRY001_000002
+  @Smoke @PRY001_000005
   Scenario Outline: Visualizar archivos en el reporte de un test run desde Proyectos.
     Given El cliente realiza el login con el usuario automation.ltm y contraseña 1234
     And se dirije a la pantalla Proyectos
