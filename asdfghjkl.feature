@@ -1,4 +1,7 @@
-  @Smoke @Regresion
+@PRY001_000003
+Feature: asdfghjkl
+
+  @Smoke @Regresion @PRY001_000001
   Scenario Outline: Adjuntar archivos a un Test Run Execution.
     Given El cliente realiza el login con el usuario automation.ltm y contraseña 1234
     And se dirije a la pantalla Runs
@@ -7,13 +10,12 @@
     And el usuario adjunta el archivo <archivo> al <posicion> test
     Then verifico que se adjunto el archivo <archivo> al <posicion> test
 
-    Examples:
-      | runName                   | estado      | opcionTestRun| archivo            | posicion |
-      | Run editado de Automation | IN PROGRESS | Ver          | test_run.PNG       | 1        |
-      | Run editado de Automation | IN PROGRESS | Ver          | Adicionar_test.pdf | 1        |
+    Examples: 
+      | runName                   | estado      | opcionTestRun | archivo            | posicion |
+      | Run editado de Automation | IN PROGRESS | Ver           | test_run.PNG       | 1        |
+      | Run editado de Automation | IN PROGRESS | Ver           | Adicionar_test.pdf | 1        |
 
-
-  @Smoke
+  @Smoke @PRY001_000002
   Scenario Outline: Visualizar archivos en el reporte de un test run desde Proyectos.
     Given El cliente realiza el login con el usuario automation.ltm y contraseña 1234
     And se dirije a la pantalla Proyectos
@@ -24,5 +26,5 @@
     And hace click sobre el archivo <archivo>
     Then se verifica que se abrio una nueva pestaña para el archivo
 
-    Examples:
-      | proyecto                       | runName                   | opcion | estado      | opcionTestRun  | archivo            |
+    Examples: 
+      | proyecto | runName | opcion | estado | opcionTestRun | archivo |
