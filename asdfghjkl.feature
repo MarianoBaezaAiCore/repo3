@@ -1,4 +1,4 @@
-@TestRuns @LippiaTestManagerFront @PRY001_000003
+@LippiaTestManagerFront @TestRuns @PRY001_000003
 Feature: asdfghjkl
 
   @Smoke @Regresion @PRY001_000001
