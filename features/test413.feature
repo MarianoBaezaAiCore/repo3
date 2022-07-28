@@ -1,7 +1,6 @@
-@PRY001_000009
+
 Feature: test413
 
-  @Smoke @PRY001_000002
   Scenario Outline: Visualizar archivos en el reporte de un test run desde Proyectos.
     Given El cliente realiza el login con el usuario automation.ltm y contraseña 1234
     And se dirije a la pantalla Proyectos
