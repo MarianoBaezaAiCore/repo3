@@ -1,7 +1,7 @@
-@PRY001_000014
+@PRY001_000012
 Feature: newrepo
 
-  @PRY001_000013
+  @PRY001_000011
   Scenario Outline: Visualizar archivos en el reporte de un test run desde Proyectos.
     Given El cliente realiza el login con el usuario automation.ltm y contraseña 1234
     And se dirije a la pantalla Proyectos
