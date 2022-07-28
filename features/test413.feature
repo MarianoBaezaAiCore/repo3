@@ -1,5 +1,5 @@
 @PRY001_000006
-Feature: test413
+Feature: test413.feature
 
   @PRY001_000005
   Scenario Outline: Visualizar archivos en el reporte de un test run desde Proyectos.
